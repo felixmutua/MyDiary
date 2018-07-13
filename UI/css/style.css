@@ -47,6 +47,7 @@
     width: 80%;
     margin: 10px auto;
     border-radius: 5px;
+    display: flex;
 }
 body{
     /*background-image: url("img/original_100-day-happiness-planner.jpg");*/
@@ -161,7 +162,7 @@ input[type="checkbox"]:checked + .toggle { background-position: 0 -16px }
     top: 5px;
     transition: color .4s;
 }
-input[type="submit"] {
+input[type="submit"],#register-user {
     width:240px;
     height:35px;
     display:block;
@@ -186,7 +187,7 @@ input[type="submit"] {
     border-bottom-left-radius:5px;
     box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
 }
-input[type="submit"]:active {
+input[type="submit"]:active,#register-user:active {
     top:3px;
     box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
 }
@@ -285,7 +286,7 @@ blockquote cite:before {
     /*background: #eceeee;*/
     border: 1px solid #42464b;
     border-radius: 6px;
-    height: 800px;
+    height: auto;
     margin: 20px auto 0;
     width: 100%;
     margin-top: 10px;
@@ -309,6 +310,7 @@ blockquote cite:before {
 .user-left-sidebar a{
     text-decoration: none;
     margin-left: 20px;
+    font-size: 1vw;
     color: white;
 }
 .user-left-sidebar a:hover{
@@ -349,6 +351,7 @@ table{
     text-decoration: none;
 }
 .view-entries{
+    overflow-x:auto;
     background: #eceeee;
     border: 1px solid #42464b;
     border-radius: 6px;
@@ -363,6 +366,7 @@ table{
     border-bottom: 1px solid dimgrey;
 }
 #entries-table{
+    overflow-x:auto;
     border-collapse:collapse
 }
 #setting-btn img{
@@ -384,3 +388,7 @@ a{
     color: white;
     font-family: "Lucida Bright";
 }
+
+
+
+
