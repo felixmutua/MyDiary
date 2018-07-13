@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Diary</title>
+    <link type="text/css"rel="stylesheet"href="../css/style.css">
+</head>
+<body>
+<div class="header">
+    <div class="banner">
+        <a href="../index.html">HOME</a>
+    </div>
+    <div class="top-links">
+        <ul>
+            <li><a href="#">BLOG</a> </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="main-wrapper">
+        <div class="wrapper2">
+            <div class="user-sidebar">
+                <center><img src="../img/icon.png" id="user-icon" width="100px"height="100px"></center>
+                <hr/>
+                <div class="user-left-sidebar">
+                    <a href="profile.html">MY PROFILE</a><hr/>
+                    <a href="addEntry.html">ADD ENTRY</a> <hr/>
+                    <a href="viewEntries.html">VIEW ENTRIES</a> <hr/>
+                    <a href="reminderSettings.html">REMINDER SETTINGS</a> <hr/>
+                    <a href="notifications.html">NOTIFICATIONS</a> <hr/>
+                    <a href="../index.html">LOGOUT</a>
+                </div>
+            </div>
+            <div class="user-main">
+                <div class="register-title">
+                    <h1>ADD ENTRY</h1>
+                </div>
+                    <div class="addentry-form">
+                        <form method="post">
+                            <table id="signup-table">
+                                <tr>
+                                    <td>
+                                        <label for="title">Title</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="title" id="title" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="time">Time</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="time" id="time" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="content">Content</label>
+                                    </td>
+                                    <td>
+                                        <textarea class="form-control" id="content"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        <input type="submit" name="submit" id="submit" value="Publish" class="register-btn">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>Designed by Felix Copyright &copy; 2018</p>
+</div>
+<script type="text/javascript"src="js/script.js"></script>
+</body>
+</html>
