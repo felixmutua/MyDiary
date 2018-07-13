@@ -1,0 +1,386 @@
+
+.header{
+    background-color: #42b588;
+    border-color: #080808;
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 1px auto;
+    padding: 10px;
+}
+.footer{
+    background-color: #42b588;
+    border-color: #080808;
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 1px auto;
+}
+.top-links{
+    float: right;
+    position: relative;
+    top: -10px;
+}
+.top-links ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+
+}
+.banner{
+    float: left;
+}
+.top-links a,.banner a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.top-links a:hover{
+    background-color: seagreen;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+body{
+    /*background-image: url("img/original_100-day-happiness-planner.jpg");*/
+    /*background-size: cover;*/
+}
+.main-wrapper{
+    width: 96%;
+    background-image: url("../img/pic.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 5px grey;
+    background-attachment: fixed;
+
+}
+#welcome{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#section2{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#section3{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*#section3{*/
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*border-radius: 5px;*/
+    /*margin-top: 10px;*/
+/*}*/
+.left-sub-section{
+    width: 49%;
+    height: 100px;
+    margin-right: 10px;
+}
+.left-sub-section{
+    width: 49%;
+    height: 400px;
+}
+.text-on-image{
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 250px;
+    color: #42b588;
+    font-family: Elephant;
+    background-color: rgba(0,0,0,0.6);
+;
+
+}
+.left-sub-section{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    float: left;
+}
+.right-sub-section{
+    float: right;
+}
+.login {
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 257px;
+    margin: 20px auto 0;
+    width: 298px;
+}
+input[type="password"], input[type="text"],textarea{
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 39px;
+    margin: 10px 0 0 35px;
+    padding-left: 25px;
+    transition: box-shadow 0.3s;
+    width: 240px;
+}
+input[type="password"]:focus,textarea:focus, input[type="text"]:focus {
+    box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+    outline: 0;
+}
+.show-password {
+    display: block;
+    height: 16px;
+    margin: 26px 0 0 28px;
+    width: 87px;
+}
+input[type="checkbox"]:checked + .toggle { background-position: 0 -16px }
+.forgot {
+    color: #7f7f7f;
+    display: inline-block;
+    float: right;
+    font: 12px/1 sans-serif;
+    left: -19px;
+    position: relative;
+    text-decoration: none;
+    top: 5px;
+    transition: color .4s;
+}
+input[type="submit"] {
+    width:240px;
+    height:35px;
+    display:block;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    text-shadow:1px 1px 0px #42b588;
+    padding-top:6px;
+    margin: 29px 0 0 29px;
+    position:relative;
+    cursor:pointer;
+    border: none;
+    background-color: #42b588;
+    background-image: linear-gradient(top,#3db0a6,#3111);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+input[type="submit"]:active {
+    top:3px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+.reg-message{
+position: relative;
+    left: 30px;
+}
+.register-title{
+    text-align: center;
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    width: 298px;
+}
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 92%;
+    margin: 0.25em 0;
+    padding: 40px;
+    line-height: 1.45;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+}
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -5px;
+    top: -20px;
+    color: #7a7a7a;
+}
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+.card1{
+    width: 24%;
+    height: 200px;
+    float: left;
+    background-color: #785447;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.card2{
+    width: 24%;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+    background-color: #3263a0;
+
+}
+.card3{
+    width: 24%;
+    height: 200px;
+    float: left;
+    background-color: #42b588;
+    margin-right: 5px;
+}
+.card4{
+    width: 24%;
+    height: 200px;
+    float: left;
+    background-color: #fe5621;
+}
+.card1,.card2,.card3,.card4{
+    text-align: center;
+}
+.card1 p,.card2 p,.card3 p,.card4 p{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: "Lucida Bright";
+}
+.wrapper{
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 450px;
+    margin: 20px auto 0;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.wrapper2{
+    /*background: #eceeee;*/
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 800px;
+    margin: 20px auto 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.user-sidebar{
+    width:20%;
+    background-color: black;
+    float: left;
+    margin-right: 3px;
+    padding-bottom: 100px;
+    border-radius: 5px;
+}
+.user-main{
+    width:76%;
+    float: left;
+    margin-left: 1%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.user-left-sidebar a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.user-left-sidebar a:hover{
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+.addentry-form{
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 350px;
+    margin: 20px auto 0;
+    width: 80%;
+    padding: 10px;
+}
+#content,#time,#title{
+    width: 80%;
+}
+table{
+    width: 100%;
+}
+#content{
+    height: 130px;
+}
+#delete-btn{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#edit-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.view-entries{
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    width: 80%;
+    padding: 10px;
+}
+#entries-table tr:hover{
+    background-color: #a1a3a3;
+}
+#entries-table tr{
+    border-bottom: 1px solid dimgrey;
+}
+#entries-table{
+    border-collapse:collapse
+}
+#setting-btn img{
+    width: 20px;
+    height: 20px;
+}
+#setting-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-family: "Lucida Bright";
+}
